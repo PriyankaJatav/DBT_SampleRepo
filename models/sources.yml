@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw schema with base tables"
+    tables:
+      - name: customers_raw_data
+        description: "Raw customers data"
+      - name: orders_raw_data
+        description: "Raw orders data"
